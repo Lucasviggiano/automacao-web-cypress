@@ -1,0 +1,9 @@
+﻿node_modules/
+
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+*.log
+.DS_Store
+Thumbs.db

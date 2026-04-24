@@ -1,0 +1,22 @@
+{
+  "validUser": {
+    "username": "cliente@ebac.art.br",
+    "password": "123456"
+  },
+  "invalidUser": {
+    "username": "naoexiste@ebac.art.br",
+    "password": "123456"
+  },
+  "invalidPasswordUser": {
+    "username": "cliente@ebac.art.br",
+    "password": "senha_errada"
+  },
+  "inactiveUser": {
+    "username": "usuario.inativo@ebac.art.br",
+    "password": "123456"
+  },
+  "registerUser": {
+    "email": "qa.auto.register@ebac.com",
+    "password": "Teste@12345"
+  }
+}

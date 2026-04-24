@@ -1,0 +1,20 @@
+{
+  "name": "tcc-ebac-qe-ui",
+  "version": "1.0.0",
+  "description": "Automacao UI do TCC EBAC QE com Cypress",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:headed": "cypress run --headed",
+    "cy:chrome": "cypress run --browser chrome",
+    "test": "cypress run",
+    "test:ui": "cypress run",
+    "test:ui:open": "cypress open"
+  },
+  "author": "Lucas Viggiano Esteves",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}

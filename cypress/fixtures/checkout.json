@@ -1,0 +1,11 @@
+{
+  "billingData": {
+    "firstName": "Lucas",
+    "lastName": "Viggiano",
+    "address": "Rua de Teste 123",
+    "city": "Ouro Branco",
+    "postcode": "36420000",
+    "phone": "31999999999",
+    "email": "aluno_ebac@teste.com"
+  }
+}

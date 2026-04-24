@@ -1,0 +1,27 @@
+{
+  "sportsBra": {
+    "name": "Celeste Sports Bra",
+    "size": "M",
+    "color": "Green",
+    "quantity": 2
+  },
+  "runningShort": {
+    "name": "Apollo Running Short",
+    "size": "32",
+    "color": "Black",
+    "quantity": 3
+  },
+  "braTop": {
+    "name": "Electra Bra Top",
+    "size": "M",
+    "color": "Purple",
+    "quantity": 1
+  },
+  "quantityLimitProduct": {
+    "name": "Celeste Sports Bra",
+    "size": "M",
+    "color": "Green",
+    "validQuantity": 10,
+    "invalidQuantity": 11
+  }
+}
