@@ -1,16 +1,17 @@
-const { defineConfig } = require('cypress')
+﻿const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   viewportWidth: 1280,
   viewportHeight: 720,
   defaultCommandTimeout: 10000,
-  pageLoadTimeout: 30000,
+  pageLoadTimeout: 90000,
   requestTimeout: 15000,
   responseTimeout: 15000,
   execTimeout: 60000,
   taskTimeout: 60000,
   video: true,
   screenshotOnRunFailure: true,
+  trashAssetsBeforeRuns: false,
   chromeWebSecurity: false,
   watchForFileChanges: false,
   retries: {

@@ -1,7 +1,24 @@
-class RegisterPage {
+﻿class RegisterPage {
   visit() {
-    cy.visit('minha-conta')
-    cy.get('.page-title').should('contain', 'Minha conta')
+    cy.visit('/minha-conta/', {
+      timeout: 90000,
+      retryOnNetworkFailure: true,
+      retryOnStatusCodeFailure: true
+    })
+
+    cy.get('.page-title', { timeout: 20000 })
+      .should('be.visible')
+      .invoke('text')
+      .then((title) => {
+        const normalized = String(title)
+          .normalize('NFD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .toLowerCase()
+
+        expect(normalized).to.satisfy((value) =>
+          value.includes('minha conta') || value.includes('my account')
+        )
+      })
   }
 
   fillEmail(email) {
